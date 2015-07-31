@@ -28,3 +28,7 @@ input {
 .banner {
   max-height: 800px;
 }
+
+.hide {
+  display: none;
+}

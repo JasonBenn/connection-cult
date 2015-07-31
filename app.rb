@@ -2,5 +2,5 @@ require 'sinatra'
 require "sinatra/reloader" if development?
 
 get '/' do
-  erb :index
+  send_file './views/index.html'
 end
