@@ -3,11 +3,13 @@ html, body {
 }
 
 body {
+  background-color: black;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   font-family: 'Montserrat', sans-serif;
+  color: white;
 }
 
 form {
@@ -23,6 +25,17 @@ form > * {
 
 input {
   margin-left: 5px;
+  outline: 0;
+  border: 1px inset gray;
+  line-height: 1em;
+  padding: .2em .7em;
+}
+
+.submit {
+  background-color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1em;
+  padding: .3em .7em;
 }
 
 .banner {
