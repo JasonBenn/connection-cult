@@ -1,5 +1,10 @@
 html, body {
+  height: 100%;
   min-height: 100vh;
+}
+
+@-ms-viewport{
+  width: device-width;
 }
 
 body {
@@ -62,7 +67,9 @@ input {
 }
 
 .banner {
-  max-height: 800px;
+  height: 800px;
+  max-height: 75%;
+  border-radius: 4px;
 }
 
 .hide {
