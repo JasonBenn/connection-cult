@@ -56,14 +56,16 @@ input {
   outline: 0;
   border: 1px inset gray;
   line-height: 1em;
-  padding: .2em .7em;
+  font-size: 14px;
+  font-family: 'Montserrat', sans-serif;
+  padding: 5px 10px;
 }
 
 .submit {
   background-color: white;
   font-family: 'Montserrat', sans-serif;
   font-size: 1em;
-  padding: .3em .7em;
+  padding: 8px 14px;
 }
 
 .banner {
