@@ -19,6 +19,14 @@ body {
   padding-bottom: 40px;
 }
 
+.quotes {
+  text-align: center;
+  font-size: .8em;
+  margin-left: 10em;
+  margin-right: 10em;
+  margin-bottom: 3em;
+}
+
 form {
   margin-top: 2em;
 }
