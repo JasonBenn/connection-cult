@@ -32,6 +32,7 @@ label {
 }
 
 input {
+  color: black;
   margin-left: 5px;
   outline: 0;
   border: 1px inset gray;
