@@ -47,7 +47,8 @@ input {
   line-height: 1em;
   font-size: 14px;
   font-family: Helvetica;
-  padding: 5px 10px;
+  padding: 10px 10px;
+  width: 250px;
 }
 
 .submit {
@@ -93,6 +94,7 @@ input {
 footer { 
   text-align: center;
   font-size: 10px;
+  padding-bottom: 2.5em; 
 }
 
 
