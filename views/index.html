@@ -17,6 +17,7 @@
       <label><input name="LNAME" placeholder="last" type="text"></label>
       <label><input name="EMAIL" placeholder="email" type="text"></label>
       <input type="text" class="hide" value="html" name="EMAILTYPE">
+      <input type="text" class="hide" value="false" name="double_optin">
       <button class="submit" type="submit">SUBMIT</button>
       <input type="text" class="hide" name="b_515893805a608984b67f1c569_9897808e75" tabindex="-1" value="">
     </form>
@@ -33,6 +34,7 @@
       ftypes[1]='text';
       fnames[2]='LNAME';
       ftypes[2]='text';
+      fnames[5]=false;
 
       $('.submit').on('click', function() { setTimeout(alert.bind(null, 'Welcome. You will receive an email shortly.'), 400) })
     }(jQuery));var $mcj = jQuery.noConflict(true);
