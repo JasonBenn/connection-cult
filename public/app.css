@@ -7,6 +7,12 @@ html, body {
   width: device-width;
 }
 
+.button {
+  text-align: center;
+  all: default;
+}
+
+
 body {
   background-color: black;
   font-family: Gotham;
@@ -55,6 +61,8 @@ input {
   padding: 10px 10px;
   width: 250px;
 }
+
+
 
 .submit {
   background-color: white;
